@@ -13,7 +13,5 @@ if hillcipher.user != "none":
       info[m] = info[m].replace("\n", '').split()[0]
     if not "n" in info[3]:
       print("You should join the LGBT+ seminar at: " + str(events.get('LGBT+ Alliance')))
-    else:
-      print(info)
     for i in range(int(info[9])):
       print("You have been signed up for the " + info[10+i] + " study group!")
