@@ -6,10 +6,10 @@ Order:
 4. Matching.py
 
 # main.py
-  This file is the file that you should run. It runs login.py and then it runs Matching.py.
+This is the main and only file that you should be running. It automatically calls and executes all dependent files.
 
 # login.py
-This file logs the user in. It encrypts the password using the Hill Cipher. It checks to see if the username is taken. If it is, it checks to see if the password is correct. Otherwise, it creates an account for you.
+By running this file, you will be able to log in. If you are creating an account, then it will provide you with the introduction questionarie before directing to Matching.py. If you are a returning user, the main file will direct to Matching.py. Additionally, all passwords are encrypted with Hill Cipher before getting stored, making sure that passwords are secure.
 
 # hillcipher.py
 This file encrupts and decrypts the password using hill cipher. It also stores the username that has been signed in to.
